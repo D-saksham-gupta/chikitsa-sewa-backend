@@ -7,7 +7,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const authMiddleware = require("../middlewares/authMiddleware");
 //const { type } = require("@testing-library/user-event/dist/type");
-const { message } = require("antd");
+//const { message } = require("antd");
 
 router.post("/register", async (req, res) => {
   try {
