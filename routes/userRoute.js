@@ -6,7 +6,7 @@ const Appointment = require("../models/appointmentModel");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const authMiddleware = require("../middlewares/authMiddleware");
-const { type } = require("@testing-library/user-event/dist/type");
+//const { type } = require("@testing-library/user-event/dist/type");
 const { message } = require("antd");
 
 router.post("/register", async (req, res) => {
